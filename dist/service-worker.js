@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.3e4768f23744f92be474160d0b63a53f.js"
+  "yelptest/precache-manifest.b53c1caf918cddfd57c629b09aa7e7ac.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "yelptest"});
