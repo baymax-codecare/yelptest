@@ -5,7 +5,7 @@
               <div class="arrange arrange--18">
                   <div class="arrange_unit arrange_unit--fill">
                       <div class="hero-header_nav hero-header_nav--main nowrap">
-                          <ul class="header-nav">
+                          <ul class="header-nav" id="header-nav">
                               <li id="write-review" class="header-nav_item js-analytics-click" data-analytics-label="write-review">
                                 <router-link to="/writeareview" class="header-nav_link">
                                     Write a Review
@@ -69,4 +69,12 @@ export default {
 </script>
 
 <style lang="scss">
+    .hero-header_nav--main {
+        .header-nav_item {
+            margin-right: 6px!important;
+        }
+    }
+    #header-log-in {
+        margin-right: 16px!important;
+    }
 </style>
