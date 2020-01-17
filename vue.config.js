@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: 'yelp',
+  publicPath: 'yelptest',
   devServer: {
     disableHostCheck: true
   }
