@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: 'findacandidate',
+  publicPath: 'yelp',
   devServer: {
     disableHostCheck: true
   }
